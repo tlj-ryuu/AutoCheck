@@ -15,6 +15,9 @@
 <a href="https://raw.githubusercontent.com/onevcat/Kingfisher/master/LICENSE"><img src="https://img.shields.io/badge/License-MIT-aqua.svg"></a>
 </p>
 
+# Getting Started
+
+writing..........
 
 # Contributors
 <a href="https://github.com/tlj-ryuu/AutoCheck/graphs/contributors">
