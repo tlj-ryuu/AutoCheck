@@ -56,13 +56,25 @@ For the above purpose, as an initial product, an application with gui interface 
   
 *My development environment is Python3.9 and I have not tested a lower version so I recommend using the same version of Python*
 
-## Usage
+## Usage from code
 
 After git this repo, just run the main program [**AutoCheck_back.py**](/AtuoCheck_back.py) in the python programming environment
 
-## From application
+```
+$ python AutoCheck_back.py
+```
 
-给一个文件链接
+## Usage from application
+
+AutoCheck tool is packaged as an exe application by Pyinstaller. 3 versions of exe can be found under the [EXEs](/EXEs) folder:
+
+| Name | Description |
+| --- | --- |
+| AutoCheck.exe | One file exe |
+| AutoCheck_cs.exe | One file with console |
+| AutoCheck_ofcs | One folder with console |
+
+:mushroom: Since the print output statement in the background could cause bugs on some computers with no programming environment at all, two additional versions of the exe with console were made
 
 ## Setting
 
@@ -71,7 +83,7 @@ After git this repo, just run the main program [**AutoCheck_back.py**](/AtuoChec
 ## Demo
 放个视频
 # Bugs
-win7
+win7 试试使用-win-private打包方式
 # Contributors
 <a href="https://github.com/tlj-ryuu/AutoCheck/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=tlj-ryuu/Autocheck" />
