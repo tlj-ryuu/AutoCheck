@@ -82,6 +82,8 @@ step1: Set file path and push "Set" button
 
 <div align=center><img width="600" src="/pictures/setpath.png"/></div>
 
+<div align=center><img width="600" src="/pictures/fileset.png"/></div>
+
 step2: Choose signal and push "Check" button
 
 step3: If decided to mark push "Confirm" button
