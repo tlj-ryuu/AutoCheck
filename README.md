@@ -46,12 +46,19 @@ For the above purpose, as an initial product, an application with gui interface 
 
 # Applied range
 
-Microsoft Office
+* Microsoft Office Products (especially not for WPS)
+* \> Windows10
 
 # Getting Started
 
-writing..........
-使用back那个py
+## Prerequisites
+* \> Python3.9
+  
+*My development environment is Python3.9 and I have not tested a lower version so I recommend using the same version of Python*
+
+## Usage
+
+After git this repo, just run the main program in the python programming environment
 
 ## From application
 
