@@ -15,7 +15,7 @@
 <a href="https://raw.githubusercontent.com/onevcat/Kingfisher/master/LICENSE"><img src="https://img.shields.io/badge/License-MIT-aqua.svg"></a>
 </p>
 
-# Introduction
+# 1. Introduction
 
 AutoCheck, in general, is the initial product of a project development, is a link in the complete project. The assumed application scenario of the project is to open a file of a specified category for review according to the input signal (which can be voice input, electronic signal, any signal that can distinguish categories), and then mark the file by giving a signal (which can be voice signal, keyboard signal, etc.) through manual judgment. In the future, it is hoped that it can be extended to give classification signals after natural language understanding through artificial voice input, and the signal that gives whether to mark can also be connected to the natural language understanding module. Whether to make a mark can also be changed from a manual judgment to an automatic judgment to achieve a fully automatic effect.
 
@@ -44,19 +44,19 @@ For the above purpose, as an initial product, an application with gui interface 
 
 4. 打包成完整的应用程序，对于没有python解释器的人也能用，即把整个环境打包进去。
 
-# Applied range
+# 2. Applied range
 
 * Microsoft Office Products (especially not for WPS)
 * \> Windows10
 
-# Getting Started
+# 3. Getting Started
 
-## Prerequisites
+## 3.1 Prerequisites
 * \> Python3.9
   
 *My development environment is Python3.9 and I have not tested a lower version so I recommend using the same version of Python*
 
-## Usage from code
+## 3.2 Usage from code
 
 After git this repo, just run the main program [**AutoCheck_back.py**](/AtuoCheck_back.py) in the python programming environment
 
@@ -64,7 +64,7 @@ After git this repo, just run the main program [**AutoCheck_back.py**](/AtuoChec
 $ python AutoCheck_back.py
 ```
 
-## Usage from application
+## 3.3 Usage from application
 
 AutoCheck tool is packaged as an exe application by Pyinstaller. 3 versions of exe can be found under the [EXEs](/EXEs) folder:
 
@@ -76,15 +76,15 @@ AutoCheck tool is packaged as an exe application by Pyinstaller. 3 versions of e
 
 :mushroom: Since the print output statement in the background could cause bugs on some computers with no programming environment at all, two additional versions of the exe with console were made
 
-## Setting
+## 3.4 Setting
 
 放个信号对应的表格，以及对应的ext
 
-## Demo
+## 3.5 Demo
 放个视频
-# Bugs
+# 4. Bugs
 win7 试试使用-win-private打包方式
-# Contributors
+# 5. Contributors
 <a href="https://github.com/tlj-ryuu/AutoCheck/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=tlj-ryuu/Autocheck" />
 </a>
