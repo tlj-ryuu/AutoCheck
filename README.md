@@ -58,7 +58,7 @@ For the above purpose, as an initial product, an application with gui interface 
 
 ## Usage
 
-After git this repo, just run the main program in the python programming environment
+After git this repo, just run the main program [**AutoCheck_back.py**](/AtuoCheck_back.py) in the python programming environment
 
 ## From application
 
