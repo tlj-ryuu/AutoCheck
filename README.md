@@ -78,17 +78,17 @@ AutoCheck tool is packaged as an exe application by Pyinstaller. 3 versions of e
 
 ### 3.3.1 Steps
 
-step1: Set file path and push "Set" button
+**step1: Set file path and push "Set" button**
 
 <div align=center><img width="600" src="/pictures/setpath.png"/></div>
 
 <div align=center><img width="600" src="/pictures/fileset.png"/></div>
 
-step2: Choose signal and push "Check" button
+**step2: Choose signal and push "Check" button**
 
-step3: If decided to mark push "Confirm" button
+**step3: If decided to mark push "Confirm" button**
 
-step4: return to step2 if wanna check next file
+**step4: return to step2 if wanna check next file**
 
 ### 3.3.2 Notice
 保证不会出错的一些设顶以及提示语句，实现的逻辑说明
