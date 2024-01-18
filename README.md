@@ -44,10 +44,25 @@ For the above purpose, as an initial product, an application with gui interface 
 
 4. 打包成完整的应用程序，对于没有python解释器的人也能用，即把整个环境打包进去。
 
+# Applied range
+
+Microsoft Office
+
 # Getting Started
 
 writing..........
+使用back那个py
 
+## From application
+
+给一个文件链接
+
+## Setting
+
+放个信号对应的表格，以及对应的ext
+
+# Bugs
+win7
 # Contributors
 <a href="https://github.com/tlj-ryuu/AutoCheck/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=tlj-ryuu/Autocheck" />
