@@ -77,12 +77,16 @@ AutoCheck tool is packaged as an exe application by Pyinstaller. 3 versions of e
 :mushroom: Since the print output statement in the background could cause bugs on some computers with no programming environment at all, two additional versions of the exe with console were made
 
 ### 3.3.1 Steps
+
 step1:
+
 图片
+
 step2:
 
 ### 3.3.2 Notice
 保证不会出错的一些设顶以及提示语句，实现的逻辑说明
+
 ## 3.4 Setting
 
 放个信号对应的表格，以及对应的ext
