@@ -130,10 +130,16 @@ Situations and correspoding are as below:
 
 ## 3.4 Setting
 
-放个信号对应的表格，以及对应的ext,以及对应的标记
+| File type | Signal | Extention | Mark action |
+| --- | --- | --- | --- |
+| word | 1 | docx (not doc !!!) | change page background to red |
+| excel | 2 | xlsx,xls | change background color of the matrix to red for cells labeled with content |
+| ppt | 3 | ppt,pptx | make a red star figure on the first slide |
 
 ## 3.5 Demo
+
 放个视频
+
 # 4. Bugs
 win7 试试使用-win-private打包方式
 # 5. Contributors
