@@ -110,6 +110,8 @@ AutoCheck tool is packaged as an exe application by Pyinstaller. 3 versions of e
 <div align=center><img width="530" src="/pictures/step4_4.png"/></div>
 <div align=center>pic8: mark ppt</div>
 
+:bangbang:**Attention: Make sure that manually close microsoft office files when you are ready to close the program after all the work is done. Do not manually close files during using AutoCheck and then click check button to open next file that will lead to fatal error**
+
 ### 3.3.2 Notice
 
 Some Settings and prompt statements to prevent violation operation which could lead to a fatal error
@@ -138,7 +140,7 @@ Situations and correspoding are as below:
 
 ## 3.5 Demo
 
-放个视频
+![demo_gif](/pictures/autocheck_demo.gif?raw=true)
 
 # 4. Bugs
 win7 试试使用-win-private打包方式
