@@ -111,8 +111,23 @@ AutoCheck tool is packaged as an exe application by Pyinstaller. 3 versions of e
 <div align=center>pic8: mark ppt</div>
 
 ### 3.3.2 Notice
-保证不会出错的一些设顶以及提示语句，实现的逻辑说明
-没有对应扩展文件的报错提示等
+
+Some Settings and prompt statements to prevent violation operation which could lead to a fatal error
+
+Situations and correspoding are as below:
+
+* when push check button first without setting file path
+<div align=center><img width="530" src="/pictures/caution1.png"/></div>
+
+* when push confirm button first without checking first
+<div align=center><img width="530" src="/pictures/caution2.png"/></div>
+
+* when set wrong path
+<div align=center><img width="530" src="/pictures/caution3.png"/></div>
+
+* when check non-exsiting type file
+<div align=center><img width="530" src="/pictures/caution4.png"/></div>
+
 ## 3.4 Setting
 
 放个信号对应的表格，以及对应的ext,以及对应的标记
