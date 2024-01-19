@@ -80,15 +80,35 @@ AutoCheck tool is packaged as an exe application by Pyinstaller. 3 versions of e
 
 **step1: Set file path and push "Set" button**
 
-<div align=center><img width="600" src="/pictures/setpath.png"/></div>
+<div align=center><img width="530" src="/pictures/setpath.png"/></div>
+<div align=center>pic1: file path</div>
 
-<div align=center><img width="600" src="/pictures/fileset.png"/></div>
+<div align=center><img width="530" src="/pictures/fileset.png"/></div>
+<div align=center>pic2: push "set" button</div>
 
 **step2: Choose signal and push "Check" button**
 
+<div align=center><img width="530" src="/pictures/step2.png"/></div>
+<div align=center>pic3: push "check" button</div>
+
 **step3: If decided to mark push "Confirm" button**
 
+<div align=center><img width="530" src="/pictures/step3.png"/></div>
+<div align=center>pic4: background changed to red</div>
+
 **step4: return to step2 if wanna check next file**
+
+<div align=center><img width="530" src="/pictures/step4_1.png"/></div>
+<div align=center>pic5: open excel according to signal</div>
+
+<div align=center><img width="530" src="/pictures/step4_2.png"/></div>
+<div align=center>pic6: mark excel</div>
+
+<div align=center><img width="530" src="/pictures/step4_3.png"/></div>
+<div align=center>pic7: open ppt according to signal</div>
+
+<div align=center><img width="530" src="/pictures/step4_4.png"/></div>
+<div align=center>pic8: mark ppt</div>
 
 ### 3.3.2 Notice
 保证不会出错的一些设顶以及提示语句，实现的逻辑说明
