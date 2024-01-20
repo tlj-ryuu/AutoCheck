@@ -143,16 +143,25 @@ Situations and correspoding are as below:
 ![demo_gif](/pictures/autocheck_demo.gif?raw=true)
 
 # 4. Bugs
-Bugs主要有来源于两个方面，一方面是在win7上运行，另一个方面则是在完全没有下过任何编程软件环境的电脑上运行。
+Bugs may mainly come from two aspects, one is running on Windows 7, and the other is running on a computer that has no programming software environment at all
 
-可能会遇到以下警告
-* 无法启动此程序，因为计算机中丢失api-ms-win
 
-原因可能来自于python39不再支持win7
+You may encounter the following warnings:
+* Cannot start this program because api-ms-win-core-path-l1-1-0.dll is missing from the computer
+* Error loading Python DLL ... \python39.dll LoadLibrary: The specified module cannot be found
+* LoadLibrary: PyInstaller: FormatMessageW failed
 
-对于点击程序闪退的情况
-解决办法：
-win7 试试使用-win-private打包方式
+:point_up_2:**The ultimate reason for this may be that python39 no longer supports win7**
+
+**The solutions:**
+* In Win7 enviornment use Pyinstaller to package as exe to use
+* In Win10 enviornment try using the specified parameter instruct `--win-private-assemblies` packaging method by Pyinstaller and use the output exe in Win7 
+
+For cases where you click on the program to flash back without seeing the error:
+* Run the AutoCheck.exe program or some other version of exe in cmd
+
+For errors encountered when running on a computer without any programming software environment at all, try:
+* Install [VC_redist.x64.exe](/EXEs/AutoCheckEXE/VC_redist.x64.exe)
 
 # 5. Contributors
 <a href="https://github.com/tlj-ryuu/AutoCheck/graphs/contributors">
