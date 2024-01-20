@@ -143,8 +143,19 @@ Situations and correspoding are as below:
 ![demo_gif](/pictures/autocheck_demo.gif?raw=true)
 
 # 4. Bugs
+Bugs主要有来源于两个方面，一方面是在win7上运行，另一个方面则是在完全没有下过任何编程软件环境的电脑上运行。
+
+可能会遇到以下警告
+* 无法启动此程序，因为计算机中丢失api-ms-win
+
+原因可能来自于python39不再支持win7
+
+对于点击程序闪退的情况
+解决办法：
 win7 试试使用-win-private打包方式
+
 # 5. Contributors
 <a href="https://github.com/tlj-ryuu/AutoCheck/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=tlj-ryuu/Autocheck" />
+  <img src="https://contrib.rocks/image?repo=JieZhou/Autocheck" />
 </a>
