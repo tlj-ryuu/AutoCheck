@@ -166,5 +166,5 @@ For errors encountered when running on a computer without any programming softwa
 # 5. Contributors
 <a href="https://github.com/tlj-ryuu/AutoCheck/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=tlj-ryuu/Autocheck" />
-  <img src="https://contrib.rocks/image?repo=JieZhou/Autocheck" />
 </a>
+
