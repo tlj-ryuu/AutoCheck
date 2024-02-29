@@ -110,6 +110,8 @@ AutoCheck tool is packaged as an exe application by Pyinstaller. 3 versions of e
 <div align=center><img width="530" src="/pictures/step4_4.png"/></div>
 <div align=center>pic8: mark ppt</div>
 
+:bangbang:**Attention: Make sure that manually close microsoft office files when you are ready to close the program after all the work is done. Do not manually close files during using AutoCheck and then click check button to open next file that will lead to fatal error**
+
 ### 3.3.2 Notice
 
 Some Settings and prompt statements to prevent violation operation which could lead to a fatal error
@@ -138,11 +140,31 @@ Situations and correspoding are as below:
 
 ## 3.5 Demo
 
-放个视频
+![demo_gif](/pictures/autocheck_demo.gif?raw=true)
 
 # 4. Bugs
-win7 试试使用-win-private打包方式
+Bugs may mainly come from two aspects, one is running on Windows 7, and the other is running on a computer that has no programming software environment at all
+
+
+You may encounter the following warnings:
+* Cannot start this program because api-ms-win-core-path-l1-1-0.dll is missing from the computer
+* Error loading Python DLL ... \python39.dll LoadLibrary: The specified module cannot be found
+* LoadLibrary: PyInstaller: FormatMessageW failed
+
+:point_up_2:**The ultimate reason for this may be that python39 no longer supports win7**
+
+**The solutions:**
+* In Win7 enviornment use Pyinstaller to package as exe to use
+* In Win10 enviornment try using the specified parameter instruct `--win-private-assemblies` packaging method by Pyinstaller and use the output exe in Win7 
+
+For cases where you click on the program to flash back without seeing the error:
+* Run the AutoCheck.exe program or some other version of exe in cmd
+
+For errors encountered when running on a computer without any programming software environment at all, try:
+* Install [VC_redist.x64.exe](/EXEs/AutoCheckEXE/VC_redist.x64.exe)
+
 # 5. Contributors
 <a href="https://github.com/tlj-ryuu/AutoCheck/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=tlj-ryuu/Autocheck" />
 </a>
+
