@@ -68,11 +68,15 @@ $ python AutoCheck_back.py
 
 AutoCheck tool is packaged as an exe application by Pyinstaller. 3 versions of exe can be found under the [EXEs](/EXEs) folder:
 
+<div align=center>
+  
 | Name | Description |
 | --- | --- |
 | AutoCheck.exe | One file exe |
 | AutoCheck_cs.exe | One file with console |
 | AutoCheck_ofcs | One folder with console |
+
+</div>
 
 :mushroom: Since the print output statement in the background could cause bugs on some computers with no programming environment at all, two additional versions of the exe with console were made
 
@@ -132,11 +136,15 @@ Situations and correspoding are as below:
 
 ## 3.4 Setting
 
+<div align=center>
+
 | File type | Signal | Extention | Mark action |
 | --- | --- | --- | --- |
 | word | 1 | docx (not doc !!!) | change page background to red |
 | excel | 2 | xlsx,xls | change background color of the matrix to red for cells labeled with content |
 | ppt | 3 | ppt,pptx | make a red star figure on the first slide |
+
+</div>
 
 ## 3.5 Demo
 
